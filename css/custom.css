@@ -6,11 +6,41 @@ body {
     text-align: center;
 }
 
-.carouselimg {
+.myContainer {
+
+}
+
+.carouselImg {
     max-height: 400px;
     object-fit: cover;
 }
 
+.normalImg {
+    max-height: 400px;
+    max-width: 530px;
+    object-fit: fill;
+}
+
+h1 {
+    text-align: center;
+}
+
 h4 {
     text-shadow: 2px 2px #000000;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide, .rightSide {
+    /* should be same as bootstrap bgc */
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 20px;
 }
