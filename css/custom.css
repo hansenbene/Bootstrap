@@ -35,7 +35,16 @@ h4 {
 
 .pic {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.mainElement {
+    /* should be same as bootstrap bgc */
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 20px;
+
+    text-align: center;
 }
 
 .leftSide, .rightSide {
@@ -43,4 +52,5 @@ h4 {
     background-color: #e9ecef;
     border-radius: 5px;
     padding: 20px;
+
 }
